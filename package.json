@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_mongo_poc",
+  "version": "1.0.0",
+  "description": "Just another Node Mongo POC",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveschmidt86/nodejs_mongo_poc.git"
+  },
+  "author": "DWS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daveschmidt86/nodejs_mongo_poc/issues"
+  },
+  "homepage": "https://github.com/daveschmidt86/nodejs_mongo_poc#readme"
+}
